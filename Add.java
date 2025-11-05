@@ -2,9 +2,9 @@
 import java.util.*;
 class Add{
     public static void main(String[] args) {
-        int a=1;
-        int b=10;
-        int sum = a+b;
-        System.out.println("Sum: " + sum);
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        System.out.print("Sum: "+(a+b));
     }
 }
